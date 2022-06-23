@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  nirvpg:
+    env_file: ./.env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # u cannot scale a service beyond 1 container
+    # if supplying a static container name
+    container_name: nirvpgfoss
+    ports:
+      - "5432:5432"
