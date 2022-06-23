@@ -4,6 +4,7 @@
 
 ## links
 
+- [db rankings](https://db-engines.com/en/ranking)
 - [RACExp kanban](https://github.com/orgs/nirv-ai/projects/3)
 
 ## About

@@ -1,0 +1,3 @@
+- \*.sh - files ending with .sh will be run as a bash shellscript.
+- \*.js - files will be executed with arangosh. You can specify additional arangosh arguments via the ARANGOSH_ARGS environment variable.
+- dumps/ - in this directory you can place subdirectories containing database dumps generated using `arangodump`. They can be restored using `arangorestore`.
