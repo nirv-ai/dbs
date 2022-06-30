@@ -1,0 +1,4 @@
+user appadmin on %RW~* &* +@all >secretpassword
+user appsystem on %RW~* -@all +@dangerous >secretpassword
+user appuser on %R~* &* -@all +@read >secretpassword
+user default off -@all
